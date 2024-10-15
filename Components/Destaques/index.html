@@ -2,7 +2,7 @@
     <div class="highlightSection_main">
         <div class="highlightCard">
             <div class="highlightCard_image">
-                <img alt="site HUB conta incêndios" class="card-image3"
+                <img alt="site HUB conta incêndios"
                     src="https://lh3.googleusercontent.com/pw/AP1GczO8E_lrs-39LBATy67N9o3DTjr081k6s2BsTlNxlaQ0fM66HGxhX9vUieRoHKfXMjtV99WhP4xw332VC0oThC44zIGlz0ZUWbwEpL-HLY-iYc0rrikEHQtRCczfuvedLYXcffv287R0zytfLv-o-gBx=w1850-h749-s-no-gm?authuser=0">
             </div>
             <div class="highlightcard_title">
@@ -42,12 +42,17 @@
         justify-content: center;
     }
 
+    .highlightSection_main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
     .highlightCard {
         display: flex;
         flex-direction: column;
-        /*width: 500px;*/
-        max-width: 80%;
-        height: 100%;
+        max-width: 60%;
+        height: auto;
         margin: 0 auto;
         background: rgba(255, 255, 255, 0.2);
         backdrop-filter: blur(8.5px);
@@ -57,16 +62,12 @@
         border: 1px solid rgba(255, 255, 255, 0.18);
     }
 
-    .highlightSection_main {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-content: center;
-    }
+
 
     .highlightCard_image {
         width: 100%;
-        object-fit: cover;
+        object-fit: contain;
+        overflow: hidden;
     }
 
     .highlightCard_image img {
@@ -94,9 +95,8 @@
     }
 
     .highlightCard_button {
-        background-color: #B8591F;
+        background-color: #EAE5D2;
         width: 100%;
-        padding: 10px;
         text-align: center;
         border: none;
         border-radius: 10px;
@@ -104,7 +104,7 @@
     }
 
     .highlightCard_button:hover {
-        background-color: #f78640;
+        background-color: #D8D8D8;
         cursor: pointer;
     }
 
@@ -113,5 +113,39 @@
         color: #001A2D;
         width: 100%;
         display: block;
+        padding: 10px;
+        outline: none !important;
+    }
+
+    .highlightCard_button a:hover {
+        border: none !important;
+    }
+
+    @media(max-width: 550px) {
+
+        .highlightcard_title {
+            padding: 5px;
+            font-size: 12px;
+        }
+
+        .highlightCard_content {
+            padding: .5rem;
+            gap: 0;
+        }
+
+        .highlightCard_description {
+            font-size: 12px;
+        }
+
+        .highlightCard_button a {
+            padding: 5px;
+        }
+    }
+
+    @media(max-width: 560px) {
+
+        .highlightCard {
+            max-width: 80%;
+        }
     }
 </style>
