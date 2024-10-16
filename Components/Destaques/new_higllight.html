@@ -16,9 +16,8 @@
         </div>
 
         <div aria-label="actions" class="highlightCard_button" role="group">
-          <a class="highlightCard_link"
-            href="https://geoniteroi.maps.arcgis.com/apps/webappviewer/index.html?id=b186888f13ee4955a7d59ac1fc0e6a7e"
-            target="_blank">Saiba mais</a>
+          <a class="highlightCard_link" href="https://niteroicontraqueimadas.niteroi.rj.gov.br/" target="_blank">Saiba
+            mais</a>
         </div>
       </div>
 
@@ -50,7 +49,7 @@
 
   .highlightSection_main {
     display: flex;
-    max-width: 80%;
+    max-width: 70%;
     align-items: center;
     justify-content: center;
   }
@@ -70,6 +69,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+    filter: brightness(80%);
   }
 
   .highlightCard_info {
@@ -88,13 +88,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 8px;
+    max-width: 80%;
     font-family: "Poppins", sans-serif;
-    font-weight: 200;
   }
 
   .highlightCard_title {
-    font-size: 20px;
+    font-size: 15px;
     color: #001A2D;
     background-color: #D8D8D8;
     padding: 10px 20px;
@@ -103,8 +103,10 @@
   }
 
   .highlightCard_description {
-    font-size: 15px;
+    font-size: 12px;
     color: #001A2D;
+    font-weight: 700;
+    margin: 0 !important;
     background-color: #D8D8D8;
     padding: 10px 20px;
     border-radius: 0 5.0rem 5.0rem 0;
@@ -131,50 +133,112 @@
     width: 100%;
     height: 100%;
     outline: none !important;
-    padding: 10px 15px;
+    padding: 10px 10px;
     color: #D8D8D8;
+    text-align: center;
   }
 
-  @media(max-width: 1170px) {
+  @media(max-width: 1240px) {
     .highlightCard_content {
-      width: 70%;
-      gap: 0;
+      width: fit-content;
     }
 
     .highlightCard_title {
-      font-size: 15px;
+      padding: 5px 10px;
     }
 
     .highlightCard_description {
       font-size: 12px;
+      padding: 5px 10px;
     }
   }
 
-  @media(max-width: 860px) {
+  @media(max-width: 1024px) {
+    .highlightCard_info {
+      bottom: 12px;
+    }
 
+    .highlightCard_title {
+      font-size: 12px;
+    }
 
-    .highlightCard_content {
-      width: 70%;
-      gap: 0;
+    .highlightCard_button a {
+      padding: 5px 8px;
     }
   }
 
-  @media(max-width: 770px) {
+  @media(max-width: 880px) {
+
+    .highlightSection_main {
+      max-width: 80%;
+    }
+  }
+
+  @media(max-width: 800px) {
 
     .highlightCard {
       flex-direction: column;
       position: static;
-    }
-
-    .highlightCard_info {
-      flex-direction: column;
-      align-items: flex-start;
-      position: static;
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     }
 
     .highlightCard_image {
       border-radius: 10px 10px 0 0;
     }
 
+    .highlightCard_content {
+      max-width: 100%;
+    }
+
+    .highlightCard_info {
+      flex-direction: column;
+      align-items: flex-start;
+      position: static;
+      padding: 0;
+      gap: 10px;
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(8.5px);
+      -webkit-backdrop-filter: blur(8.5px);
+      border-radius: 0 0 10px 10px;
+      border: 1px solid rgb(255 255 255 / 20%);
+    }
+
+    .highlightCard_title {
+      width: 100%;
+      border-radius: 0;
+      text-align: center;
+      box-shadow: none;
+    }
+
+    .highlightCard_description {
+      border-radius: 0;
+      background-color: transparent;
+      box-shadow: none;
+      color: #D8D8D8;
+      font-size: 15px;
+      line-height: 22px;
+    }
+
+    .highlightCard_button {
+      align-self: flex-end;
+      margin: 0 10px 10px 0;
+    }
+
+    .highlightCard_button a {
+      padding: 7px 15px;
+    }
+
+  }
+
+  @media(max-width: 425px) {
+    .highlightSection_main {
+      max-width: 100%;
+    }
+  }
+
+  @media(max-width: 375px) {
+    .highlightSection_main {
+      font-size: 12px;
+    }
   }
 </style>
