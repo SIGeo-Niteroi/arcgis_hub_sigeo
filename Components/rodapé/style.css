@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: url(./assets/fundo-hub-digital-twin.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+  margin: 0 !important;
+  line-height: normal !important;
+  text-decoration: none !important;
+  outline: none !important;
+  /* Retirar as margens e ligh-height de padrão do HUB nos elemntos*/
+}
+
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroSection img {
+  width: 400px;
+}
+
+@media(max-width: 560px) {
+  .heroSection img {
+    width: 300px;
+  }
+}
+
+@media(max-width: 375px) {
+  .heroSection img {
+    width: 250px;
+  }
+}
+
+.aplicatiosCardSections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 30px;
+}
+
+.card-image-wrap img {
+  width: 100px;
+  margin: 20px;
+}
+
+.card-base {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgba(240, 240, 240, 0.2);
+}
+
+/* Footer */
+
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #001A2D;
+  border-top: 1px solid #a8a8a8;
+}
+
+.footerLayout {
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 14px 0px;
+}
+
+.footerLayout_SIGeoInfos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.socialMedias {
+  margin-top: 10px;
+  display: flex;
+  gap: 9px;
+}
+
+#copyrightText {
+  padding-top: 38px;
+  color: #fff;
+}
+
+#logo_sigeo_horizontal {
+  width: 208px;
+}
+
+.footerLayout_verticalBarr {
+  width: 1px;
+  background-color: #fff;
+  height: 100%;
+}
