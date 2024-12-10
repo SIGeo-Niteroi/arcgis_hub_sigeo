@@ -26,7 +26,7 @@ p,
 a {
   margin: 0 !important;
   line-height: normal !important;
-  text-decoration: none !important;
+  /* text-decoration: none !important; */
   outline: none !important;
   /* Retirar as margens e ligh-height de padrão do HUB nos elemntos*/
 }
@@ -123,4 +123,21 @@ a {
   width: 1px;
   background-color: #fff;
   height: 100%;
+}
+
+#usefulLinksText {
+  color: #fff;
+  font-size: 16px;
+  padding-bottom: 24px;
+}
+
+.usefulLinksAncors {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.usefulLinksAncors a {
+  color: #fff;
+  font-size: 14px;
 }
