@@ -26,7 +26,7 @@ p,
 a {
   margin: 0 !important;
   line-height: normal !important;
-  /* text-decoration: none !important; */
+  text-decoration: none !important;
   outline: none !important;
   /* Retirar as margens e ligh-height de padrão do HUB nos elemntos*/
 }
@@ -92,15 +92,24 @@ a {
   width: fit-content;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  padding: 14px 0px;
+  padding: 30px 0px;
   font-family: Poppins;
+}
+
+.footerLayout_Mobile {
+  display: none;
 }
 
 .footerLayout_SIGeoInfos {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  height: 100%;
+  padding-right: 120px;
+}
+
+#logo_sigeo_horizontal {
+  width: 208px;
 }
 
 .socialMedias {
@@ -115,29 +124,346 @@ a {
   color: #fff;
 }
 
-#logo_sigeo_horizontal {
-  width: 208px;
-}
-
 .footerLayout_verticalBarr {
   width: 1px;
   background-color: #fff;
   height: 100%;
 }
 
+.footerLayout_usefulLinks {
+  height: 100%;
+  padding: 0 200px 0 80px;
+}
+
 #usefulLinksText {
   color: #fff;
   font-size: 16px;
+  font-weight: 500;
   padding-bottom: 24px;
 }
 
 .usefulLinksAncors {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 
 .usefulLinksAncors a {
   color: #fff;
   font-size: 14px;
+  font-weight: 300;
+  text-decoration: underline !important;
+}
+
+.footerLayout_contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #fff;
+  height: 100%;
+  padding-left: 80px;
+}
+
+.emailContact_container {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  gap: 9px;
+}
+
+#ContactText {
+  font-weight: 500;
+}
+
+#emailIcon {
+  width: 26px;
+  height: 19px;
+}
+
+#sigeoEmailSupport {
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+#logo_smcti {
+  padding-top: 56px;
+}
+
+@media(max-width: 1235px) {
+
+  .footerLayout_usefulLinks {
+    padding: 0 100px 0 50px;
+  }
+
+  .footerLayout_SIGeoInfos {
+    padding-right: 100px;
+  }
+
+  .footerLayout_contacts {
+    padding-left: 50px;
+  }
+
+}
+
+@media(max-width: 1053px) {
+
+  .footerLayout_usefulLinks {
+    padding: 0 50px 0 50px;
+  }
+
+  .footerLayout_SIGeoInfos {
+    padding-right: 50px;
+  }
+
+  .footerLayout_contacts {
+    padding-left: 50px;
+  }
+
+}
+
+@media(max-width: 940px) {
+
+  .footerLayout_usefulLinks {
+    padding: 0 20px 0 20px;
+  }
+
+  .footerLayout_SIGeoInfos {
+    padding-right: 20px;
+  }
+
+  .footerLayout_contacts {
+    padding-left: 20px;
+  }
+
+}
+
+@media(max-width: 820px) {
+
+  #logo_sigeo_horizontal {
+    width: 128px;
+  }
+
+  .socialMedias {
+    gap: 5px;
+  }
+
+  #copyrightText {
+    padding-top: 28px;
+  }
+
+  #logo_smcti {
+    width: 220px;
+  }
+
+  .usefulLinksAncors a {
+    font-size: 12px;
+  }
+
+  #sigeoEmailSupport {
+    color: #fff;
+    font-weight: 300;
+    font-size: 12px;
+  }
+
+  #ContactText,
+  #usefulLinksText {
+    font-size: 14px;
+  }
+
+  #linkedinIcon img,
+  #githubIcon img {
+    width: 20px;
+  }
+
+  .emailContact_container {
+    gap: 5px;
+  }
+
+  #emailIcon {
+    width: 20px;
+    height: 14px;
+  }
+
+}
+
+@media(max-width: 675px) {
+
+  #logo_sigeo_horizontal {
+    width: 108px;
+  }
+
+  #copyrightText {
+    padding-top: 20px;
+  }
+
+  #logo_smcti {
+    width: 200px;
+  }
+
+  .usefulLinksAncors a {
+    font-size: 11px;
+  }
+
+  #sigeoEmailSupport {
+    font-size: 11px;
+  }
+
+  #ContactText,
+  #usefulLinksText {
+    font-size: 12px;
+  }
+
+  #linkedinIcon img,
+  #githubIcon img {
+    width: 18px;
+  }
+
+  #emailIcon {
+    width: 18px;
+    height: 12px;
+  }
+
+  .footerLayout_usefulLinks {
+    padding: 0 12px 0 12px;
+  }
+
+  .footerLayout_SIGeoInfos {
+    padding-right: 12px;
+  }
+
+  .footerLayout_contacts {
+    padding-left: 12px;
+  }
+
+}
+
+@media(max-width: 620px) {
+
+  .footerLayout {
+    display: none;
+  }
+
+  .footerLayout_Mobile {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    font-family: Poppins;
+  }
+
+  .footerLayout_usefulLinksAndContactInfo {
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+  }
+
+  .footerLayout_horizonBarr {
+    height: 2px;
+    width: 80%;
+    background-color: #fff;
+  }
+
+  .footerLayout_SIGeoInfos {
+    align-items: center;
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+
+  #logo_sigeo_horizontal {
+    width: 208px;
+  }
+
+  #copyrightText {
+    padding-top: 20px;
+  }
+
+  #logo_smcti {
+    width: 200px;
+  }
+
+  .usefulLinksAncors a {
+    font-size: 11px;
+  }
+
+  #sigeoEmailSupport {
+    font-size: 11px;
+  }
+
+  #ContactText,
+  #usefulLinksText {
+    font-size: 12px;
+    color: #fff;
+  }
+
+  #linkedinIcon img,
+  #githubIcon img {
+    width: 28px;
+  }
+
+  #emailIcon {
+    width: 18px;
+    height: 12px;
+  }
+
+  .footerLayout_usefulLinks {
+    padding: 0 0px 0 0px;
+  }
+
+  .footerLayout_contacts {
+    padding-left: 0px;
+  }
+
+}
+
+@media(max-width: 420px) {
+
+  .footerLayout_usefulLinksAndContactInfo {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  #logo_sigeo_horizontal {
+    width: 208px;
+  }
+
+  #copyrightText {
+    font-size: 12px;
+  }
+
+  #logo_smcti {
+    width: 300px;
+  }
+
+  .usefulLinksAncors a {
+    font-size: 14px;
+  }
+
+  #sigeoEmailSupport {
+    font-size: 14px;
+  }
+
+  #ContactText,
+  #usefulLinksText {
+    font-size: 16px;
+  }
+
+  #linkedinIcon img,
+  #githubIcon img {
+    width: 28px;
+  }
+
+  #emailIcon {
+    width: 20px;
+    height: 14px;
+  }
+
+}
+
+@media(max-width: 345px) {
+  #logo_smcti {
+    width: 250px;
+  }
 }
