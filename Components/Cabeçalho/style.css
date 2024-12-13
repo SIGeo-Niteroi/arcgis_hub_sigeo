@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+  margin: 0 !important;
+  line-height: normal !important;
+  text-decoration: none !important;
+  outline: none !important;
+  /* Retirar as margens e ligh-height de padrão do HUB nos elemntos*/
+}
+
+/* Animações */
+
+@keyframes realistic-balance {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(8deg);
+  }
+
+  20% {
+    transform: rotate(0deg);
+  }
+
+  30% {
+    transform: rotate(-6deg);
+  }
+
+  40% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(4deg);
+  }
+
+  60% {
+    transform: rotate(0deg);
+  }
+
+  70% {
+    transform: rotate(-2deg);
+  }
+
+  80% {
+    transform: rotate(0deg);
+  }
+
+  90% {
+    transform: rotate(1deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes appear-to-right {
+  from {
+    opacity: 0;
+    translate: -2vw 0;
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes appear-to-left {
+  from {
+    opacity: 0;
+    translate: 2vw 0;
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+/* NavBarr */
+
+a:hover {
+  cursor: pointer;
+}
+
+.navbar {
+  margin-bottom: 0px !important;
+  border-radius: 0px !important;
+  border: none !important;
+}
+
+.navbar-default {
+  background-color: #001A2D !important;
+  padding: 20px 20px;
+  border-bottom: none;
+}
+
+#logoSIGeo {
+  height: 45px;
+  padding-right: 10px;
+  margin-top: 4px;
+}
+
+.navbar-default .navbar-nav li a {
+  background-color: transparent !important;
+  color: #fff !important;
+  font-family: Poppins;
+  font-size: 18px;
+}
+
+.navbar-nav li a:hover {
+  background-image: unset;
+}
+
+#servidoresButton {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  justify-content: center;
+  margin-top: 6px;
+  margin-right: 20px;
+  background-color: #B8591F;
+  border-radius: 5.0rem;
+  transition: all .5s ease-out;
+}
+
+#servidoresButton:hover {
+  background-color: #ee7a31;
+}
+
+#servidoresButton a {
+  font-family: Poppins;
+  font-size: 18px !important;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none !important;
+  width: 100%;
+  height: 100%;
+  outline: none !important;
+  padding: 10px 12px !important;
+  color: #D8D8D8;
+  text-align: center;
+  transition: all .5s ease-out;
+}
+
+#servidoresButton:hover a {
+  color: #001A2D !important;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff !important;
+  border-radius: 10px !important;
+}
+
+.navbar-nav li .dropdown-menu {
+  background-color: #001A2D !important;
+  border: none !important;
+  border-radius: 10px !important;
+}
+
+.site-header .navbar-default .navbar-nav .dropdown-menu li a {
+  color: #ffffff !important;
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  #servidoresButton {
+    margin: 0 40px 10px 0 !important;
+  }
+
+  #servidoresButton a {
+    font-size: 14px !important;
+  }
+}
+
+/* Banner Section */
+
+.bannerSection {
+  padding: 120px 0px 60px 0px;
+  background-image: url('https://www.ortofotos.niteroi.rj.gov.br/arquivos/Imagens/fundos/fundo_banner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.bannerSectionMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  width: 100%;
+  padding: 0px 15px;
+}
+
+.bannerSectionMain_logoSigeo {
+  width: 120px;
+}
+
+.bannerSectionMain_logoSigeo img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.bannerSection_text {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+#bannerText_eventoDe {
+  font-family: Heebo;
+  background-color: #b85a1f;
+  width: fit-content;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+#bannerText_eventoDe p {
+  font-size: 40px;
+  font-weight: 700;
+  text-shadow: none;
+  padding: 0px 20px;
+}
+
+#bannerText_10anos {
+  font-size: 90px;
+  max-width: 400px;
+  font-weight: 700;
+  font-family: Heebo;
+  line-height: 90px !important;
+  text-align: center;
+  text-shadow: 3px 3px 0px rgba(255, 255, 255, 0.5);
+}
+
+#bannerText_SIGeo {
+  font-family: Poppins;
+  font-weight: 200;
+  font-size: 18px;
+  text-align: center;
+}
+
+.bannerSectionMain_logoSMCTI {
+  width: 250px;
+}
+
+.bannerSectionMain_logoSMCTI img {
+  width: 100%;
+  object-fit: contain;
+}
+
+@media(max-width: 425px) {
+
+  #bannerText_eventoDe p {
+    font-size: 32px;
+  }
+
+  #bannerText_10anos {
+    font-size: 60px;
+    line-height: 66px !important;
+    max-width: 300px;
+  }
+
+  #bannerText_SIGeo {
+    font-size: 14px;
+  }
+}
