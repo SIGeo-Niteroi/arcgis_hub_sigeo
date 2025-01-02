@@ -15,7 +15,7 @@
                 </ul>
                 <p id="contentText_completeMosaic">
                     Para baixar um mosaico completo, basta clicar no botão referente ao formato desejado que o download
-                    começará aoutomaticamnete. Os arquivos em LAS estão divididos em 4 partes.
+                    começará automaticamente. Os arquivos em LAS estão divididos em 4 partes.
                 </p>
                 <p id="specificQuadrant">
                     Para baixar um quadrante específico você precisa alterar a escala do mapa usando os botões de + e -
@@ -49,12 +49,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 90%;
+        width: 100%;
+        padding: 0px 8px;
         gap: 30px;
     }
 
-    .useInstructions_title {
+    #useInstructions_title {
         text-align: center;
+        line-height: 45px;
     }
 
     .useInstructions_content {
@@ -62,10 +64,11 @@
         align-items: center;
         justify-content: space-between;
         gap: 50px;
+        max-width: 1280px;
     }
 
     .contentText {
-        width: 50%;
+        width: 60%;
         display: flex;
         flex-direction: column;
         gap: 25px;
@@ -77,11 +80,67 @@
     }
 
     .imageExample {
-        width: 50%;
+        width: 40%;
         text-align: center;
     }
 
     .imageExample img {
-        max-width: 500px;
+        max-width: 400px;
+    }
+
+    @media(max-width: 991px) {
+
+        .useInstructions_content {
+            gap: 20px;
+        }
+
+        .contentText {
+            width: 50%;
+            font-size: 14px;
+            gap: 15px;
+        }
+
+        .imageExample {
+            width: 50%;
+        }
+
+        .imageExample img {
+            width: 100%;
+        }
+    }
+
+    @media(max-width: 840px) {
+
+        .contentText {
+            width: 60%;
+            font-size: 13px;
+            gap: 10px;
+        }
+    }
+
+    @media(max-width: 720px) {
+
+        .useInstructions_content {
+            flex-direction: column;
+        }
+
+        .contentText {
+            width: 100%;
+            font-size: 14px;
+            gap: 10px;
+        }
+
+        .imageExample {
+            width: 100%;
+        }
+
+    }
+
+    @media(max-width: 320px) {
+
+        #useInstructions_title {
+            line-height: 40px;
+            font-size: 30px;
+        }
     }
 </style>
