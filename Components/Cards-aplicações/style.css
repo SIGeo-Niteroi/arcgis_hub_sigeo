@@ -89,4 +89,9 @@ a {
   justify-content: center;
   border-radius: 10px;
   background-color: #001a2dbb;
+  transition: all .5s ease-out;
+}
+
+.card-base:hover {
+  transform: scale(1.05);
 }
