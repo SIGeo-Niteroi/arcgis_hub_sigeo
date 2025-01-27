@@ -1,8 +1,11 @@
 <div class="topic">
     <button class="acoes__button" data-toggle="collapse" data-target="#useInstructionsButton">
-        <div class="acoes__icon"><img class="acoes__button-icon"
+        <div class="acoes__icon">
+            <img class="acoes__button-icon"
                 src="https://www.ortofotos.niteroi.rj.gov.br/arquivos/Imagens/HUB/Pag_Ortofotos/informations-file-icon.png">
         </div>Instruções para download
+        <img class="acoes__button-icon" id="right-arrow-icon"
+            src="https://www.ortofotos.niteroi.rj.gov.br/arquivos/Imagens/HUB/Pag_Ortofotos/right-arrow.png">
     </button>
     <div id="useInstructionsButton" class="collapse">
         <div class="useInstructions">
@@ -51,6 +54,50 @@
 
 
 <style>
+    @keyframes rotateAnimationHover {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        50% {
+            transform: rotate(120deg);
+        }
+
+        70% {
+            transform: rotate(80deg);
+        }
+
+        80% {
+            transform: rotate(105deg);
+        }
+
+        100% {
+            transform: rotate(90deg);
+        }
+    }
+
+    @keyframes rotateAnimationReturn {
+        0% {
+            transform: rotate(90deg);
+        }
+
+        50% {
+            transform: rotate(30deg);
+        }
+
+        70% {
+            transform: rotate(-10deg);
+        }
+
+        80% {
+            transform: rotate(-15deg);
+        }
+
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+
     .topic {
         display: flex;
         flex-direction: column;
@@ -84,6 +131,15 @@
 
     .acoes__button-icon {
         width: 30px;
+    }
+
+    #right-arrow-icon {
+        transition: all .5s ease-out;
+        animation: rotateAnimationReturn 0.3s linear forwards;
+    }
+
+    .acoes__button:hover #right-arrow-icon {
+        animation: rotateAnimationHover 0.4s linear forwards;
     }
 
     #useInstructionsButton {
