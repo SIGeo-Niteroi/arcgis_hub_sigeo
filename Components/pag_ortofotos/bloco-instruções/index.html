@@ -1,42 +1,95 @@
-<div class="useInstructions">
-    <div class="useInstructions_main">
-        <h1 id="useInstructions_title">Instruções para download</h1>
-        <div class="useInstructions_content">
-            <div class="contentText">
-                <p id="contentText_intro">
-                    Nos mapas dispostos abaixo você pode baixar um mosaico completo ou apenas um quadrante específico.
-                    Os
-                    downloads estão disponíveis nos seguintes formatos:
-                </p>
-                <ul class="downloadFormatsList">
-                    <li id="imgTIF">Imagens aéreas em TIF</li>
-                    <li id="MDTeMDF">Modelos digitais de elevação em MDT e MDS</li>
-                    <li id="DWGeSHP">Curvas de nível em DWG e SHP</li>
-                </ul>
-                <p id="contentText_completeMosaic">
-                    Para baixar um mosaico completo, basta clicar no botão referente ao formato desejado que o download
-                    começará automaticamente. Os arquivos em LAS estão divididos em 4 partes.
-                </p>
-                <p id="specificQuadrant">
-                    Para baixar um quadrante específico você precisa alterar a escala do mapa usando os botões de + e -
-                    orientados no canto superior direito, habilitando assim a visualização dos rótulos com o número de
-                    identificação referente a cada ortofoto. Como mostrado da imagem de exemplo.
-                </p>
-                <p id="specificQuadrant2">
-                    Ao clicar no quadrante desejado, abrirá uma janela com as opções de download, basta clicar em
-                    visualizar
-                    que o download começará automaticamente
-                </p>
-            </div>
-            <div class="imageExample">
-                <img src="https://www.ortofotos.niteroi.rj.gov.br/arquivos/Imagens/HUB/Pag_Ortofotos/mapaExemploInstru%C3%A7%C3%B5es.png"
-                    alt="imagem exemplo para download de um quadrante de ortofotos." id="mapImgExample">
+<div class="topic">
+    <button class="acoes__button" data-toggle="collapse" data-target="#useInstructionsButton">
+        <div class="acoes__icon"><img class="acoes__button-icon"
+                src="https://www.ortofotos.niteroi.rj.gov.br/arquivos/Imagens/HUB/Pag_Ortofotos/informations-file-icon.png">
+        </div>Instruções para download
+    </button>
+    <div id="useInstructionsButton" class="collapse">
+        <div class="useInstructions">
+            <div class="useInstructions_main">
+                <div class="useInstructions_content">
+                    <div class="contentText">
+                        <p id="contentText_intro">
+                            Nos mapas dispostos abaixo você pode baixar um mosaico completo ou apenas um quadrante
+                            específico.
+                            Os
+                            downloads estão disponíveis nos seguintes formatos:
+                        </p>
+                        <ul class="downloadFormatsList">
+                            <li id="imgTIF">Imagens aéreas em TIF</li>
+                            <li id="MDTeMDF">Modelos digitais de elevação em MDT e MDS</li>
+                            <li id="DWGeSHP">Curvas de nível em DWG e SHP</li>
+                        </ul>
+                        <p id="contentText_completeMosaic">
+                            Para baixar um mosaico completo, basta clicar no botão referente ao formato desejado que o
+                            download
+                            começará automaticamente. Os arquivos em LAS estão divididos em 4 partes.
+                        </p>
+                        <p id="specificQuadrant">
+                            Para baixar um quadrante específico você precisa alterar a escala do mapa usando os botões
+                            de + e -
+                            orientados no canto superior direito, habilitando assim a visualização dos rótulos com o
+                            número de
+                            identificação referente a cada ortofoto. Como mostrado da imagem de exemplo.
+                        </p>
+                        <p id="specificQuadrant2">
+                            Ao clicar no quadrante desejado, abrirá uma janela com as opções de download, basta clicar
+                            em
+                            visualizar
+                            que o download começará automaticamente
+                        </p>
+                    </div>
+                    <div class="imageExample">
+                        <img src="https://www.ortofotos.niteroi.rj.gov.br/arquivos/Imagens/HUB/Pag_Ortofotos/mapaExemploInstru%C3%A7%C3%B5es.png"
+                            alt="imagem exemplo para download de um quadrante de ortofotos." id="mapImgExample">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
+
 <style>
+    .topic {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .acoes__button {
+        display: flex;
+        background: #b8591f;
+        border: none;
+        border-radius: 20px;
+        padding: 5px 15px;
+        align-items: center;
+        color: #fff;
+        font-family: 'Poppins';
+        gap: 10px;
+        flex-direction: row;
+        font-weight: 400;
+        transition: all .5s ease-out;
+    }
+
+    .acoes__button:hover {
+        background-color: #ee7a31;
+        color: #001A2D;
+    }
+
+    .acoes__button:focus {
+        box-shadow: none;
+        outline-color: none;
+    }
+
+    .acoes__button-icon {
+        width: 30px;
+    }
+
+    #useInstructionsButton {
+        transition: all .5s ease-out;
+    }
+
     .useInstructions {
         display: flex;
         width: 100%;
@@ -54,20 +107,13 @@
         gap: 30px;
     }
 
-    #useInstructions_title {
-        text-align: center;
-        line-height: 45px;
-        font-weight: 500;
-        font-family: 'Poppins';
-        margin: 0 0 20px 0 !important;
-    }
-
     .useInstructions_content {
         display: flex;
         align-items: center;
         justify-content: space-between;
         gap: 50px;
         max-width: 1280px;
+        color: #fff;
     }
 
     .contentText {
@@ -91,7 +137,7 @@
         max-width: 400px;
         transition: all .5s ease-out;
     }
-    
+
     .imageExample img:hover {
         transform: scale(1.10);
     }
