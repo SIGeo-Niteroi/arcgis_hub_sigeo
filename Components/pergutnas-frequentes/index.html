@@ -338,7 +338,7 @@
   }
 
   .panel,
-  .panel-heading-collapsed,
+  .panel-heading.collapsed,
   .panel-default {
     border: none;
     border-radius: 10px;
@@ -358,11 +358,12 @@
     border-radius: 0 0 10px 10px;
   }
 
-  button:hover {
-    outline: none;
+  .accordion.btn.btn-sm.btn-link {
+    outline: none !important;
+    box-shadow: none !important;
   }
 
-  .a11y-underlines #main-region section .markdown-card button.btn-link {
-    outline: none;
+  .accordion.btn.btn-sm.btn-link:hover {
+    outline: none !important;
   }
 </style>
