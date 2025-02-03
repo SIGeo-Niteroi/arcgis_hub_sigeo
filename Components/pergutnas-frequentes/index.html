@@ -1,13 +1,13 @@
 <div class="topic">
-  <button class="acoes__button" data-toggle="collapse" data-target="#useInstructionsButton">
+  <button class="acoes__button" data-toggle="collapse" data-target="#FAQButton">
     <div class="acoes__icon">
       <img class="acoes__button-icon"
-        src="https://lh3.googleusercontent.com/pw/AL9nZEXrYAeeF8fAuMMMeK-R6uT0zs3RhhCwz7yeGvFrfMTz8YFlKUvsH9wGgTHmQYto0JWgk4A_KG3XHzUW7sUQiVQTHFKvNTTeyf8l-NiPME1qxHtFdqH-PfL88YffQHENoLixQuDE_oQxw92k7jrS_jTG=s32-no?authuser=2">
+        src="https://www.ortofotos.niteroi.rj.gov.br/arquivos/Imagens/HUB/Pag_Ortofotos/FAQ-icon.png">
     </div>Perguntas Frequentes
     <img class="acoes__button-icon" id="right-arrow-icon"
       src="https://www.ortofotos.niteroi.rj.gov.br/arquivos/Imagens/HUB/Pag_Ortofotos/right-arrow.png">
   </button>
-  <div id="useInstructionsButton" class="collapse">
+  <div id="FAQButton" class="collapse">
     <div>
       <div class="col-xs-12 accordion">
         <div class="panel panel-default">
@@ -246,7 +246,6 @@
   </div>
 </div>
 
-
 <style>
   @keyframes rotateAnimationHover {
     0% {
@@ -314,6 +313,10 @@
     transition: all .5s ease-out;
   }
 
+  #FAQButton {
+    transition: all .5s ease-out;
+  }
+
   .acoes__button:hover {
     background-color: #ee7a31;
     color: #001A2D;
@@ -330,6 +333,7 @@
 
   #right-arrow-icon {
     transition: all .5s ease-out;
+    width: 20px;
     animation: rotateAnimationReturn 0.3s linear forwards;
   }
 
@@ -347,13 +351,13 @@
   .panel-heading {
     color: #001A2D;
     border-radius: 10px 10px 0 0;
-    background-color: #e9e7e7;
+    background-color: #d9d9d9 !important;
   }
 
   .panel-body {
     padding: 15px;
-    max-width: 900px;
-    background-color: #eae5d2 !important;
+    max-width: 800px;
+    background-color: #f0f0f0 !important;
     color: #001A2D !important;
     border-radius: 0 0 10px 10px;
   }
