@@ -159,7 +159,7 @@
 </div>
 
 <style>
-    .aero2019Downloads_section {
+    .aero2014Downloads_section {
         display: flex;
         width: 100%;
         flex-direction: column;
@@ -168,24 +168,25 @@
         margin-bottom: 40px;
     }
 
-    .aero2019Downloads_main {
+    .aero2014Downloads_main {
         display: flex;
         flex-direction: column;
         gap: 50px;
         align-items: center;
     }
 
-    #aero2019Downloads_description {
+    #aero2014Downloads_description {
         text-align: center;
-        font-size: 24px;
+        font-weight: 400 !important;
+        font-size: 18px;
         color: #d9d9d9;
         font-family: 'Poppins';
         line-height: 130%;
-        max-width: 1000px;
+        max-width: 800px;
         margin: 0px !important;
     }
 
-    .aero2019Downloads_options {
+    .aero2014Downloads_options {
         display: flex;
         width: 100%;
         flex-direction: column;
@@ -206,13 +207,15 @@
 
     .downloadOption_text {
         margin: 0 !important;
-        font-size: 20px;
+        font-size: 16px;
+        font-weight: 400 !important;
         text-align: center;
     }
 
     .downloadOption_buttonText {
         display: flex;
         align-items: center;
+        font-size: 16px;
         gap: 5px;
         color: #d9d9d9;
         background: rgba(153, 153, 153, 0.6);
@@ -246,13 +249,8 @@
     }
 
     @media(max-width: 770px) {
-        #aero2019Downloads_description {
+        #aero2014Downloads_description {
             max-width: 700px;
-            font-size: 20px;
-        }
-
-        .downloadOption_text {
-            font-size: 16px;
         }
 
         .downloadOption_button a {
@@ -261,25 +259,21 @@
     }
 
     @media (max-width: 465px) {
-        .aero2019Downloads_section {
+        .aero2014Downloads_section {
             margin-bottom: 30px;
         }
 
         .downloadOption {
             flex-direction: column;
         }
-
-        .downloadOption_text {
-            font-size: 20px;
-        }
-
+        
         .downloadOption_buttons {
             width: 300px;
         }
     }
-
+    
     @media (max-width: 320px) {
-        #aero2019Downloads_description {
+        #aero2014Downloads_description {
             font-size: 16px;
         }
     }
