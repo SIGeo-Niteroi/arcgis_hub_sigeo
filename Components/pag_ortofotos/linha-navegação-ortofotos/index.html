@@ -1,0 +1,73 @@
+<div class="navButtonsOrtofotos_container">
+    <div class="navButtonsOrtofotos_main">
+        <div class="aerolevantamentoNav_button">
+            <a class="aerolevantamentoNav_buttonText" href="#aeroLevantamento2019_title"
+                rel="noopener noreferrer">Aerolevantamento 2019
+                <img class="aerolevantamentoNav_buttonIcon"
+                    src="https://www.ortofotos.niteroi.rj.gov.br/arquivos/Imagens/HUB//Pag_Ortofotos/down-arrow.png"
+                    alt="ícone de seta parabaixo">
+            </a>
+        </div>
+
+        <div class="aerolevantamentoNav_button">
+            <a class="aerolevantamentoNav_buttonText" href="#aeroLevantamento2014_title"
+                rel="noopener noreferrer">Aerolevantamento 2014
+                <img class="aerolevantamentoNav_buttonIcon"
+                    src="https://www.ortofotos.niteroi.rj.gov.br/arquivos/Imagens/HUB/Pag_Ortofotos/down-arrow.png"
+                    alt="ícone de seta parabaixo">
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .navButtonsOrtofotos_container {
+        display: flex;
+        justify-content: center;
+        margin: 0px 0px 50px;
+    }
+
+    .navButtonsOrtofotos_main {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .aerolevantamentoNav_buttonText {
+        font-family: 'Poppins';
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #d9d9d9;
+        background: rgba(153, 153, 153, 0.6);
+        padding: 5px 10px;
+        border-radius: 30px;
+        transition: all .5s ease-out;
+        width: fit-content;
+    }
+
+    .aerolevantamentoNav_buttonText:hover {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #d9d9d9;
+        background: #B8591F;
+        padding: 5px 10px;
+        border-radius: 30px;
+    }
+
+    .aerolevantamentoNav_buttonText:hover .aerolevantamentoNav_buttonIcon {
+        transform: translateY(0.1rem);
+    }
+
+    .aerolevantamentoNav_buttonIcon {
+        width: 21px;
+        transition: all .5s ease-out;
+    }
+
+    @media(max-width:520px) {
+        .navButtonsOrtofotos_main {
+            flex-direction: column;
+        }
+    }
+</style>
