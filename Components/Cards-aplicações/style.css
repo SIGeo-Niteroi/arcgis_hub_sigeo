@@ -31,6 +31,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 60px 0px 30px 0px;
 }
 
 .heroSection img {
@@ -44,6 +45,10 @@ a {
 }
 
 @media(max-width: 375px) {
+  .heroSection {
+    margin: 20px 0px 30px 0px;
+  }
+
   .heroSection img {
     width: 250px;
   }
@@ -84,4 +89,9 @@ a {
   justify-content: center;
   border-radius: 10px;
   background-color: #001a2dbb;
+  transition: all .5s ease-out;
+}
+
+.card-base:hover {
+  transform: scale(1.05);
 }
