@@ -16,7 +16,7 @@
 </div>
 
 <details>
-  <summary style='font-size:18px'>Table of contents | Súmario</summary>
+  <summary>Table of contents | Súmario</summary>
   <ol>
     <li>
       <a href="#about-the-repository--sobre-o-repositório">About The Repository | Sobre O Repositório</a>
@@ -55,15 +55,21 @@ Welcome! This is a repository created by Data Office from Niterói city hall to 
 <h2 id="components--componentes">Components | Componentes</h2>
 
 <details id="cabecalho">
-  <summary style='font-size:20px'>📁 cabeçalho</summary>
-  <p>HTML and CSS files for the header used in the SIGeo HUB</p>
-  <p>Arquivos em HTML e CSS do cabeçalho usado no HUB do SIGeo</p>
+  <summary>📁 cabeçalho</summary>
+  <p style='margin-left:20px'>HTML and CSS files for the header used in the SIGeo HUB</p>
+  <p style='margin-left:20px'>Arquivos em HTML e CSS do cabeçalho usado no HUB do SIGeo</p>
 </details>
 
 <details id="rodape">
-  <summary style='font-size:20px'>📁 rodapé</summary>
-  <p>HTML and CSS files for the footer used in the SIGeo HUB</p>
-  <p>Arquivos em HTML e CSS do rodapé usado no HUB do SIGeo</p>
+  <summary>📁 rodapé</summary>
+  <p style='margin-left:20px'>HTML and CSS files for the footer used in the SIGeo HUB</p>
+  <p style='margin-left:20px'>Arquivos em HTML e CSS do rodapé usado no HUB do SIGeo</p>
+</details>
+
+<details id="pag-inicial">
+  <summary>📁 pag-inicial</summary>
+  <p style='margin-left:20px'>In this folder you will find the codes for the components that build the SIGeo HUB home page, such as the access cards to SIGeo applications and materials, the latest release cards, the frequently asked questions block and two highlight card models (used for occasional announcements).</p>
+  <p style='margin-left:20px'>Nesta pasta você econtra os códigos dos componentes que compõem a página inicial do HUB do SIGeo, como os cards de acesso as aplicações e os materiais do SIGeo, os cards dos últimos lançamentos, o bloco das perguntas frequêntes e dois modelos de card de destaque (usado para anúncios esporádicos).</p>
 </details>
 
 
