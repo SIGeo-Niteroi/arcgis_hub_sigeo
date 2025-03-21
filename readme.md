@@ -33,6 +33,7 @@
         <li><a href="#pag_mapas">pag_mapas</a></li>
         <li><a href="#pag_ortofotos">pag_ortofotos</a></li>
         <li><a href="#pag_paineis_aplicacoes">pag_paineis_aplicacoes</a></li>
+        <li><a href="#pag_servicos">pag_serviços</a></li>
         <li><a href="#rodape">rodapé</a></li>
       </ul>
     </li>
@@ -91,8 +92,14 @@ Welcome! This is a repository created by Data Office from Niterói city hall to 
 
 <details id="pag_paineis_aplicacoes">
   <summary>📁 pag_painéis_aplicações</summary>
-  <p style='margin-left:20px'>In this folder you will find the codes of the components that build the SIGeo HUB dashboards and applications page: navigation bar between the application pages, the access cards to the featured applications, access cards to the dashboards made for the case of covid-19, access cards to other SIGeo applications, cards with the featured panels and the title section of the page.</p>
+  <p style='margin-left:20px'>In this folder you will find the codes of the components that  the SIGeo HUB dashboards and applications page: navigation bar between the application pages, the access cards to the featured applications, access cards to the dashboards made for the case of covid-19, access cards to other SIGeo applications, cards with the featured panels and the title section of the page.</p>
   <p style='margin-left:20px'>Nesta pasta você econtra os códigos dos componentes que compõem a página de painéis e aplicações do HUB do SIGeo: barra de navegação entre as páginas de aplicações, os cards de acesso às aplicações em destaque, cards de acesso aos painéis feitos para o caso de covid-19, cards de acesso a outras aplicações do SIGeo, cards com os painéis em destaque e a seção de título da página.</p>
+</details>
+
+<details id="pag_servicos">
+  <summary>📁 pag_serviços</summary>
+  <p style='margin-left:20px'>In this folder you will find the codes of the components that build the SIGeo HUB services page: navigation bar between the application pages, the access cards to the services, a section with a button to access the services library of the Niterói city and the title section of the page.</p>
+  <p style='margin-left:20px'>Nesta pasta você econtra os códigos dos componentes que compõem a página de serviços do HUB do SIGeo: barra de navegação entre as páginas de aplicações, os cards de acesso as serviços, uma seção com um botão de acesso ao portaql de serviços da prefeitura de Niterói e a seção de título da página.</p>
 </details>
 
 <details id="rodape">
