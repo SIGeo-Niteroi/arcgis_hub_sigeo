@@ -98,8 +98,14 @@ Welcome! This is a repository created by Data Office from Niterói city hall to 
 
 <details id="pag_servicos">
   <summary>📁 pag_serviços</summary>
-  <p style='margin-left:20px'>In this folder you will find the codes of the components that build the SIGeo HUB services page: navigation bar between the application pages, the access cards to the services, a section with a button to access the services library of the Niterói city and the title section of the page.</p>
+  <p style='margin-left:20px'>In this folder you will find the codes of the components that build the SIGeo HUB services page: navigation bar between the application pages, the access cards to the services, a section with a button to access the services library of the city of Niterói and the title section of the page.</p>
   <p style='margin-left:20px'>Nesta pasta você econtra os códigos dos componentes que compõem a página de serviços do HUB do SIGeo: barra de navegação entre as páginas de aplicações, os cards de acesso as serviços, uma seção com um botão de acesso ao portaql de serviços da prefeitura de Niterói e a seção de título da página.</p>
+</details>
+
+<details id="pag_sobre">
+  <summary>📁 pag_sobre</summary>
+  <p style='margin-left:20px'>In this folder you will find the codes of the components that build the page about us of the SIGeo HUB: The block "The SIGeo" (which defines the sector), a block called "Our Work" (which tells a little about the work performed by the system) and the title section of the page.</p>
+  <p style='margin-left:20px'>Nesta pasta você econtra os códigos dos componentes que compõem a página sobre nós do HUB do SIGeo: O bloco "O SIGeo"(que define o setor), um bloco chamado "Nosso Trabalho" (que conta um pouco sobre o trabalho desempenhado pelo sistema) e a seção de título da página.</p>
 </details>
 
 <details id="rodape">
