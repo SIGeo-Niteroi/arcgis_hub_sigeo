@@ -31,6 +31,8 @@
         <li><a href="#pag_dados_abertos">pag_dados_abertos</a></li>
         <li><a href="#pag_inicial">pag_inicial</a></li>
         <li><a href="#pag_mapas">pag_mapas</a></li>
+        <li><a href="#pag_ortofotos">pag_ortofotos</a></li>
+        <li><a href="#pag_paineis_aplicacoes">pag_paineis_aplicacoes</a></li>
         <li><a href="#rodape">rodapé</a></li>
       </ul>
     </li>
@@ -83,8 +85,14 @@ Welcome! This is a repository created by Data Office from Niterói city hall to 
 
 <details id="pag_ortofotos">
   <summary>📁 pag_ortofotos</summary>
-  <p style='margin-left:20px'>In this folder you will find the codes of the components that make up the orthophotos page of the SIGeo HUB: navigation bar between the application pages, the blocks with buttons to download the complete mosaics of the years 2014 and 2019 of Niterói city, a block with the instructions for the user to download and the title section of the page.</p>
+  <p style='margin-left:20px'>In this folder you will find the codes of the components that build the orthophotos page of the SIGeo HUB: navigation bar between the application pages, the blocks with buttons to download the complete mosaics of the years 2014 and 2019 of Niterói city, a block with the instructions for the user to download and the title section of the page.</p>
   <p style='margin-left:20px'>Nesta pasta você econtra os códigos dos componentes que compõem a página de ortofotos do HUB do SIGeo: barra de navegação entre as páginas de aplicações, os blocos com botões para download dos mosaicos completos dos anos de 2014 e 2019 da cidade de Niterói, um bloco com as instruções para o usuário fazer os downloads e a seção de título da página.</p>
+</details>
+
+<details id="pag_paineis_aplicacoes">
+  <summary>📁 pag_painéis_aplicações</summary>
+  <p style='margin-left:20px'>In this folder you will find the codes of the components that build the SIGeo HUB dashboards and applications page: navigation bar between the application pages, the access cards to the featured applications, access cards to the dashboards made for the case of covid-19, access cards to other SIGeo applications, cards with the featured panels and the title section of the page.</p>
+  <p style='margin-left:20px'>Nesta pasta você econtra os códigos dos componentes que compõem a página de painéis e aplicações do HUB do SIGeo: barra de navegação entre as páginas de aplicações, os cards de acesso às aplicações em destaque, cards de acesso aos painéis feitos para o caso de covid-19, cards de acesso a outras aplicações do SIGeo, cards com os painéis em destaque e a seção de título da página.</p>
 </details>
 
 <details id="rodape">
