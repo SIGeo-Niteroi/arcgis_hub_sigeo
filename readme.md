@@ -46,9 +46,13 @@
 
 <h2 id="about-the-repository--sobre-o-repositório">About The Repository | Sobre O Repositório</h2>
 
-Welcome! This is a repository created by Data Office from Niterói city hall to organize and share the codes of custom components used to build the Niterói SIGeo HUB. Here you can find the codes of our custom components writed in HTML and CSS.
+<p>Welcome! This is a repository created by Data Office from Niterói city hall to organize and share the codes of custom components used to build the Niterói SIGeo HUB. Here you can find the codes of our custom components writed in HTML and CSS.</p>
+
+<p>🔗 Feel free to visit the SIGeo HUB through the link: <a href="https://www.sigeo.niteroi.rj.gov.br/" target='_blank'>sigeo.niteroi.rj.gov.br</a></p>
 
 <p>Bem vindo(a)! Esse é um repositório criado pelo Escritório de Dados da prefeitura de Niterói para organizar e compartilhar os códigos dos componentes personalizados usados na estruturação do HUB do SIGeo de Niterói. Aqui você pode encontrar os códigos dos nossos componentes feitos em HTML e CSS.
+
+<p>🔗 Sinta-se à vontade para visitar o HUB do SIGeo através do link: <a href="https://www.sigeo.niteroi.rj.gov.br/" target='_blank'>sigeo.niteroi.rj.gov.br</a></p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <h2 id="built-with--desenvolvido-com">Built With | Desenvolvido Com</h2>
@@ -123,7 +127,43 @@ Welcome! This is a repository created by Data Office from Niterói city hall to 
 
 <h2 id="usage--uso">Usage | Uso</h2>
 
-Will be listed here the code's demo | Será inserido aqui uma demo do uso dos códigos
+<details id="use_en">
+  <summary>🤔 How to use these components in your ArcGis HUB?</summary>
+  <br>
+  <div>
+    <p>1️⃣ Copy the code available in this repository</p>
+    <ul>
+      <li>Access the folder of the desired component;</li>
+      <li>Open the <code>HTML</code> and <code>CSS</code> and copy their content – some files have the <code>CSS</code>  included within the <code>HTML</code> file, inside the <code>style</code> tag.</li>
+    </ul>
+    <p>2️⃣ Paste the code into ArcGIS Hub</p>
+    <ul>
+      <li>Open the page editor of your ArcGIS Hub;</li>
+      <li>If the component is a header or footer, paste the <code>HTML</code> and <code>CSS</code> code into the designated section within the ArcGIS Hub editor (Site Settings → Header/Footer);</li>
+      <li>For other components, insert the HTML code inside an <code>HTML</code> Block (Custom HTML) within a page section;</li>
+      <li>As for the CSS code, paste it inside a <code>style</code> tag at the beginning or end of the HTML Block.</li>
+    </ul>
+  </div>
+</details>
+
+<details id="use_pt_br">
+  <summary>🤔 Como usar esses componentes no seu HUB do ArcGis:</summary>
+  <br>
+  <div>
+    <p>1️⃣ Copie o código disponível neste repositório</p>
+    <ul>
+      <li>Acesse a pasta do componente desejado;</li>
+      <li>Abra os arquivos <code>HTML</code> e <code>CSS</code> e copie seu conteúdo; - alguns arquivos estão com o <code>CSS</code> incluso no arquivo <code>HTML</code>, dentro da tag <code>style</code>.</li>
+    </ul>
+    <p>2️⃣ Cole os códigos no ArcGIS Hub</p>
+    <ul>
+      <li>Abra o editor de páginas do seu ArcGis HUB;</li>
+      <li>Se o componente for um cabeçalho ou rodapé, cole o código <code>HTML</code> e <code>CSS</code> no espaço reservado dentro do editor do ArcGIS Hub (Configurações do Site → Cabeçalho/Rodapé);</li>
+      <li>Para outros componentes, insira o código HTML dentro de um Bloco <code>HTML</code> (Custom HTML) em uma seção da página;</li>
+      <li>Quanto ao código <code>CSS</code>, cole dentro de uma tag <code>style</code> no início ou no final do Bloco HTML.</li>
+    </ul>
+  </div>
+</details>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
