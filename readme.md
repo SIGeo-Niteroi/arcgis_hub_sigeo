@@ -66,19 +66,25 @@ Welcome! This is a repository created by Data Office from Niterói city hall to 
 <details id="pag_dados_abertos">
   <summary>📁 pag_dados_abertos</summary>
   <p style='margin-left:20px'>In this folder you will find the codes of the components that make up the open data page of the SIGeo HUB, such as the navigation bar between the application pages, the access cards to the manuals and guides for data use, the section with the cards to explore between the data categories and the page title section.</p>
-  <p style='margin-left:20px'>Nesta pasta você econtra os códigos dos componentes que compõem a página de dados abertos do HUB do SIGeo, como a barra de navegação entre as páginas de aplicações, os cards de acesso aos manuais e guias de uso de dados, a seção com os cards para explorar entre as categorias de dados e a seção de título da página.</p>
+  <p style='margin-left:20px'>Nesta pasta você econtra os códigos dos componentes que compõem a página de dados abertos do HUB do SIGeo: barra de navegação entre as páginas de aplicações, os cards de acesso aos manuais e guias de uso de dados, a seção com os cards para explorar entre as categorias de dados e a seção de título da página.</p>
 </details>
 
 <details id="pag_inicial">
   <summary>📁 pag_inicial</summary>
   <p style='margin-left:20px'>In this folder you will find the codes for the components that build the SIGeo HUB home page, such as the access cards to SIGeo applications and materials, the latest release cards, the frequently asked questions block and two highlight card models (used for occasional announcements).</p>
-  <p style='margin-left:20px'>Nesta pasta você econtra os códigos dos componentes que compõem a página inicial do HUB do SIGeo, como os cards de acesso as aplicações e os materiais do SIGeo, os cards dos últimos lançamentos, o bloco das perguntas frequêntes e dois modelos de card de destaque (usado para anúncios esporádicos).</p>
+  <p style='margin-left:20px'>Nesta pasta você econtra os códigos dos componentes que compõem a página inicial do HUB do SIGeo: cards de acesso as aplicações e os materiais do SIGeo, os cards dos últimos lançamentos, o bloco das perguntas frequêntes e dois modelos de card de destaque (usado para anúncios esporádicos).</p>
 </details>
 
 <details id="pag_mapas">
   <summary>📁 pag_mapas</summary>
   <p style='margin-left:20px'>In this folder you will find the codes of the components that build the SIGeo HUB map page, such as the navigation bar between the application pages, the maps download cards and the page title section.</p>
-  <p style='margin-left:20px'>Nesta pasta você econtra os códigos dos componentes que compõem a página de mapas do HUB do SIGeo, como a barra de navegação entre as páginas de aplicações, os cards para download dos mapas e a seção de título da página.</p>
+  <p style='margin-left:20px'>Nesta pasta você econtra os códigos dos componentes que compõem a página de mapas do HUB do SIGeo: barra de navegação entre as páginas de aplicações, os cards para download dos mapas e a seção de título da página.</p>
+</details>
+
+<details id="pag_ortofotos">
+  <summary>📁 pag_ortofotos</summary>
+  <p style='margin-left:20px'>In this folder you will find the codes of the components that make up the orthophotos page of the SIGeo HUB: navigation bar between the application pages, the blocks with buttons to download the complete mosaics of the years 2014 and 2019 of Niterói city, a block with the instructions for the user to download and the title section of the page.</p>
+  <p style='margin-left:20px'>Nesta pasta você econtra os códigos dos componentes que compõem a página de ortofotos do HUB do SIGeo: barra de navegação entre as páginas de aplicações, os blocos com botões para download dos mosaicos completos dos anos de 2014 e 2019 da cidade de Niterói, um bloco com as instruções para o usuário fazer os downloads e a seção de título da página.</p>
 </details>
 
 <details id="rodape">
