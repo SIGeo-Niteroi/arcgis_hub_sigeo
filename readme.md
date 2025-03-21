@@ -28,6 +28,8 @@
       <a href="#components--componentes">Components | Componentes</a>
       <ul>
         <li><a href="#cabecalho">cabeçalho</a></li>
+        <li><a href="#pag-mapas">pag-mapas</a></li>
+        <li><a href="#pag-inicial">pag-inicial</a></li>
         <li><a href="#rodape">rodapé</a></li>
       </ul>
     </li>
@@ -60,16 +62,22 @@ Welcome! This is a repository created by Data Office from Niterói city hall to 
   <p style='margin-left:20px'>Arquivos em HTML e CSS do cabeçalho usado no HUB do SIGeo</p>
 </details>
 
-<details id="rodape">
-  <summary>📁 rodapé</summary>
-  <p style='margin-left:20px'>HTML and CSS files for the footer used in the SIGeo HUB</p>
-  <p style='margin-left:20px'>Arquivos em HTML e CSS do rodapé usado no HUB do SIGeo</p>
+<details id="pag-mapas">
+  <summary>📁 pag-mapas</summary>
+  <p style='margin-left:20px'>In this folder you will find the codes of the components that build the SIGeo HUB map page, such as the navigation bar between the application pages, the maps download cards and the page title section.</p>
+  <p style='margin-left:20px'>Nesta pasta você econtra os códigos dos componentes que compõem a página de mapas do HUB do SIGeo, como a barra de navegação entre as páginas de aplicações, os cards para download dos mapas e a seção de título da página.</p>
 </details>
 
 <details id="pag-inicial">
   <summary>📁 pag-inicial</summary>
   <p style='margin-left:20px'>In this folder you will find the codes for the components that build the SIGeo HUB home page, such as the access cards to SIGeo applications and materials, the latest release cards, the frequently asked questions block and two highlight card models (used for occasional announcements).</p>
   <p style='margin-left:20px'>Nesta pasta você econtra os códigos dos componentes que compõem a página inicial do HUB do SIGeo, como os cards de acesso as aplicações e os materiais do SIGeo, os cards dos últimos lançamentos, o bloco das perguntas frequêntes e dois modelos de card de destaque (usado para anúncios esporádicos).</p>
+</details>
+
+<details id="rodape">
+  <summary>📁 rodapé</summary>
+  <p style='margin-left:20px'>HTML and CSS files for the footer used in the SIGeo HUB</p>
+  <p style='margin-left:20px'>Arquivos em HTML e CSS do rodapé usado no HUB do SIGeo</p>
 </details>
 
 
